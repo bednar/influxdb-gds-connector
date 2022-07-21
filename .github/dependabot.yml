@@ -7,4 +7,5 @@ updates:
       interval: "daily"
     open-pull-requests-limit: 10
     ignore:
-      - dependency-type: "development"
+      - dependency-name: "*"
+        dependency-type: "development"
